@@ -15,7 +15,8 @@ catch (ApplicationException e) {
 }
 
 try {
-    MysteryStack2.Run("5 0 /");
+    //MysteryStack2.Run("3 4 0 * /");
+    MysteryStack2.Run("0 3 /");
     Console.WriteLine("WRONG: expected ApplicationException: Invalid Case 2!");
 }
 catch (ApplicationException e) {
